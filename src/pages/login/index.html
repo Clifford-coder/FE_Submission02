@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="/src/css/main.css" />
     <title>FE_Submission02 Login</title>
     <script
@@ -15,7 +16,21 @@
   <body>
     <topbar-component></topbar-component>
     <main>
-      <h1>Hello Login</h1>
+      <div class="login-form-container">
+        <div class="login-form-heading">
+          <h4>Freddy's Artisanal Hallowen Candy Shop</h4>
+          <img
+            class="login-logo"
+            alt="Freddys_Logo"
+            src="/src/assets/Freddys_Logo.svg"
+          />
+        </div>
+        <form class="login-form">
+          <input type="text" id="username" placeholder="username" />
+          <input type="password" id="password" placeholder="*******" />
+          <button type="submit" class="login-form-submit">Login</button>
+        </form>
+      </div>
     </main>
   </body>
 </html>
