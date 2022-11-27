@@ -1,0 +1,34 @@
+aside {
+  height: 100vh;
+  border-right: 1px solid var(--border-grey);
+  padding: 30px;
+}
+
+aside .logo {
+  height: 100px;
+  width: 100px;
+  margin: 20px auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+ul li .item {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+ul li .item:hover {
+  text-decoration: none;
+  color: rgb(39, 38, 38);
+  font-size: 18px;
+}
