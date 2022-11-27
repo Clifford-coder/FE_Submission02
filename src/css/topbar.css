@@ -1,0 +1,27 @@
+.topbar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 20px;
+  background: var(--bg-blue);
+  height: 30px;
+  gap: 10px;
+}
+
+.topbar-circle-item {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.topbar-circle-item.red {
+  background: var(--bg-red);
+}
+
+.topbar-circle-item.yellow {
+  background: var(--bg-yellow);
+}
+
+.topbar-circle-item.green {
+  background: var(--bg-green);
+}

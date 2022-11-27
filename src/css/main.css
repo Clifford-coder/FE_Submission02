@@ -1,5 +1,6 @@
 @import './variables.css';
 @import './sidebar.css';
+@import './topbar.css';
 
 body {
   background-color: var(--bg-grey);
